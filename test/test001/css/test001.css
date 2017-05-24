@@ -1,12 +1,14 @@
 #page-container{
 	width: 760px;
 	margin: 0 auto;
-	background: red;
+	
 }
 
 body{
-	margin: 0;
-	padding: 0;
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+	font-size: 12px;
+	color: #666666;
+	background: #ffffff;
 }
 
 #main-nav{
@@ -15,20 +17,54 @@ body{
 }
 
 #header{
-	background: blue;
 	height: 150px;
+	background: #db6d16
+	url(../img/about.jpg);
 }
 
 #sidebar-a{
 	float: right;
 	width: 280px;
-	background: darkgreen;
+	line-height: 18px;
+}
+
+#sidebar-a .padding {
+	padding: 25px;
 }
 
 #content{
-	background: green;
+	margin-right: 280px;
+	line-height: 18px;
+}
+
+#content .padding {
+	padding: 25px;
 }
 
 #footer{
-	background: orange;
+	clear: both;
+	
+	height: 66px;
 }
+
+.hidden {
+display: none;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+#content h2 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+#content p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;
+}
+
